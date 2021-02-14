@@ -1,0 +1,18 @@
+.name {
+    padding: 10px;
+    font-size: medium;
+    font-style: inherit;
+    font-weight: large;
+}
+.level {
+padding: 10px;
+font-size: medium;
+font-style:inherit;
+font-weight: large;
+}
+.button {
+    width : 150px;
+    height: 50px;
+    size: 70px;
+    border-radius: 25px;
+}

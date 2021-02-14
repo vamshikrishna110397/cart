@@ -1,0 +1,9 @@
+.head {
+    display: flex;
+    flex-direction: row ;
+    background-color:darkorange;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 30px;
+}
