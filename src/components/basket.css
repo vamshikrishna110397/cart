@@ -1,0 +1,70 @@
+.basket {
+    display: flex;
+    flex-direction: column;
+    width:  95%;
+    background-color: rgb(255, 102, 0);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.All {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.All1 {
+    width: 60%;
+}
+.All2 {
+    width: 30%;
+}
+
+.basket1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: azure;
+}
+.cartItems {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-style: normal;
+    color: azure;
+}
+
+.items {
+
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  color: azure;
+  font-style:normal;
+}
+.price{
+    padding: 10px;
+    
+}
+.total {
+    padding: 10px;
+    font-weight: bolder;
+}
+.shipping {
+    padding: 10px;
+}
+.tax {
+    padding: 10px;
+}
+.plus {
+    background-color: azure;
+
+}
+.minus {
+    background-color: azure;
+
+}

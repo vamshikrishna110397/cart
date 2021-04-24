@@ -1,0 +1,24 @@
+.head {
+    display: flex;
+    flex-direction: row ;
+    background-color:rgb(12, 238, 12);
+    margin: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 30px;
+}
+.shopping {
+    font-family: cursive;
+    padding: 10px
+}
+.sign {
+    font-family: cursive;
+    padding: 10px;
+}
+.count {
+    font-family: cursive;
+    padding: 10px;
+}
+.cart {
+    font-family: cursive;
+}
