@@ -1,22 +1,27 @@
+import Image1 from './../assets/tv1.jpg'
+import Image2 from './../gettyimages1.jpg'
+import Image3 from './../assets/tv2.jpg'
 const data = {
     products :[{
         id : 1,
-        name : "karengala",
+        name : "SONY",
         level : "excellent",
-        price : 10,
-        img : 'http://www.w3.org/2000/svg'
+        price : 50000,
+        img : Image1,
         },
   {
     id : 2 ,
-    name : 'krishna',
+    name : 'VIZIO',
     level : 'good',
-    price : 20
+    price : 40000,
+    img : Image2,
   },
    {
     id : 3 ,
-    name : 'vamshi',
+    name : 'LG',
     level : 'brilliant',
-    price : 30
+    price : 30000,
+    img : Image3
    }
 ]
 }

@@ -21,10 +21,10 @@ return (
         {cartItems.map((item) => (
             
             <div className='cartItems'>
-            <div>{item.name}</div>
+            <div class='name'>{item.name}</div>
             <div>
-            <button onClick={() => onAdd(item)}>+</button>
-            <button onClick={() => onRemove(item)}>-</button>
+            <button onClick={() => onAdd(item) } className='plus'>+</button>
+            <button onClick={() => onRemove(item)} className='minus'>-</button>
             </div>
             <div>
                 {item.qty} * {item.price} 
@@ -35,10 +35,11 @@ return (
         <div className='All2'>
         {cartItems.length !== 0 && (
             <div className='items'>
-            <div className='price'>itemPrice      : {itemPrice}</div>
-            <div className='total'>totalPrice     : {totalPrice}</div>
-            <div className='shipping'>shippingPrice  : {shippingPrice}</div>
+            <div className='price'>ItemPrice      : {itemPrice}</div>
+
+            <div className='shipping'>ShippingPrice  : {shippingPrice}</div>
             <div className='tax'>Taxprice       : {taxPrice}</div>
+            <div className='total'>TotalPrice     : {totalPrice}</div>
             </div>
         )}
         </div>

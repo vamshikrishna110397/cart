@@ -1,9 +1,4 @@
-.main1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -15,7 +10,7 @@
     
 }
 .productCom {
-    
+    width: 30%;
     font-size: 30px;
     font-weight: 700;
     display: flex;
@@ -34,8 +29,14 @@
     font-size: 30px;
     font-weight: 700;
     padding: 20px;
+    font-family:cursive;
 }
 .products {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.name {
+    padding: 10px;
 }

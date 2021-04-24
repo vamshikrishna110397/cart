@@ -5,13 +5,15 @@ function Header (props){
     const {countCartItems} = props
     return (<div className='head'>
         
-        <div>Small-Shopping-cart</div>
+        <div class='shopping'>Small-Shopping-cart</div>
         <div>
-        <div>
-        cart {' '}
-        {countCartItems ? (<button>{countCartItems}</button>) : (' ')}
-        </div> 
-        <div>signin</div>
+ 
+        <div class='sign'>signin</div>
+        <div class='cart'>
+
+{countCartItems ? (<button class='count'>{countCartItems}</button>) : (' ')}
+cart {' '}
+</div>
         </div>
         
     </div>)

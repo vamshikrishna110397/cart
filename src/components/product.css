@@ -1,18 +1,32 @@
 .name {
-    padding: 10px;
+    
     font-size: medium;
     font-style: inherit;
     font-weight: large;
+    
 }
 .level {
 padding: 10px;
 font-size: medium;
 font-style:inherit;
 font-weight: large;
+
 }
 .button {
-    width : 150px;
-    height: 50px;
-    size: 70px;
+    width : 130px;
+    height: 40px;
+    
     border-radius: 25px;
+}
+.button:hover {
+    width: 140px;
+    height: 50px;
+    background-color: lightskyblue;
+}
+.img {
+    margin: 20px;
+    padding: 20px;
+    width: 70%;
+    height: 80%;
+    background-color: lime;
 }
